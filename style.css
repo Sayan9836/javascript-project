@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+     opacity: 0.87; 
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 12px;
+}
+
+.brand img {
+    width: 63px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    flex-direction: column;
+    /* opacity: 0.8; */
+    width: 80;
+
+}
+
+.icons {
+    margin-bottom: -13px;
+    margin-top: 12px;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+#masterPlay {
+    margin-left: 13px;
+    margin-right: 13px;
+
+}
+
+.container {
+    min-height: 63vh;
+    background-color: black;
+
+    background-image: url('image2.jpg');
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-size: cover;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    width: 70%;
+    padding: 30px;
+    flex-direction: column;
+
+}
+
+#Myprogress {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songList {
+    height: 38px;
+    display: flex;
+    background-color: white;
+    width: 33%;
+    color: black;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+}
+
+.songList img {
+    width: 35px;
+    margin-left: 6px;
+    border-radius: 40px;
+}
+
+.timestamp {
+    margin: 0 7px;
+}
+
+.songItemplay {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10.3vw;
+    margin-top: 20px;
+}
+
+.songInfo img {
+    opacity: 0;
+    margin-right: 5px;
+    transition: 1s ease-in;
+
+}
